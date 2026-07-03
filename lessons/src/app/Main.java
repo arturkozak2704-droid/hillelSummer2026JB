@@ -23,10 +23,10 @@ public class Main {
         days = 7;
         sales = 7;
 
-        double total2 = sales * price;
+        double total3 = sales * price;
 
         double DailySales2 = total / days;
         System.out.printf("Product No 2: %s,%ntotal sales for %d days is EUR %.2f,%nsales by day is EUR %.2f.%n",
-                product, days, total2, DailySales2);
+                product, days, total3, DailySales2);
     }
 }
