@@ -17,16 +17,16 @@ public class Main {
         System.out.printf("Product No 1: %s,%ntotal sales for %d days is EUR %.2f,%nsales by day is EUR %.2f.%n",
                 product, days, total, DailySales);
 
-        clients = 2;
-        product = "laptop";
-        price = 1498.12;
-        days = 7;
-        sales = 7;
+        int clientS = 2;
+        String product2 = "laptop";
+        double prices = 1498.12;
+        int day = 7;
+        int saless = 7;
 
-        double total3 = sales * price;
+        double total3 = saless * prices;
 
         double DailySales2 = total / days;
         System.out.printf("Product No 2: %s,%ntotal sales for %d days is EUR %.2f,%nsales by day is EUR %.2f.%n",
-                product, days, total3, DailySales2);
+                product2, day, total3, DailySales2);
     }
 }
